@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Practice</title>
+    <link rel="icon" href="./assets/images/a.png">
 </head>
 <body>
     <hr>
     <a href="index.html">Home</a> |
-    <a href="contact.html" target="_blank">Contact</a>
+    <a href="contact.html">Contact</a> |
+    <a href="gallery.html"> Gallery</a>
     <hr>
     <table cellspacing='10'>
         <tr>
@@ -21,26 +23,42 @@
             </td>
         </tr>
     </table>
+    <hr>
     <!-- comment-->
     <h3>Contact us...</h3>
     <form method='POST' action="mailto:cow@gmail.com" enctype="utf-8">
-        <label for="fName">First Name</label>
-        <input type='text' name="fName" id="fName"><br>
-        <label for="sName">Sur Name:</label>
-        <input type="text" name="sName" id="sName"><br>
-        <label for="email">Email</label>
-        <input type="email" name='email' id='email'><br>
-        country:
-        <select name="country" id="">
-            <option value="af">Africa</option>
-            <option value="am">America</option>
-            <option value="eu">Europe</option>
-        </select>
-        <br>
-        What do you say?<br>
-        <textarea name="comment" id="" cols="30" rows="10"></textarea><br>
-        <input type='submit' value='Submit'>
+        <table>
+            <tr>
+                <td><label for="fName">First Name:</label></td>
+                <td><input type='text' name="fName" id="fName"></td>
+            </tr>
+            <tr>
+                <td><label for="sName">Sur Name:</label></td>
+                <td><input type="text" name="sName" id="sName"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name='email' id='email'></td>
+            </tr>
+            <tr>
+                <td><label for="country:">Country:</label></td>
+                <td>
+                    <select name="country" id="">
+                        <option value="af">Africa</option>
+                        <option value="am">America</option>
+                        <option value="eu">Europe</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
 
+                <td><label for="opinion">What do you say?</label></td>
+                <td><textarea name="comment" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type='submit' value='Submit'></td>
+            </tr>
+        </table>
     </form>
 
     <hr>
