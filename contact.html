@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Practice</title>
-    <link rel="icon" href="./assets/images/a.png">
+    <link rel="icon" href="./assets/images/aed09cb048383509be63cc1991794c29-lcd.png">
 </head>
 <body>
     <hr>
@@ -15,7 +15,7 @@
     <hr>
     <table cellspacing='10'>
         <tr>
-            <td><img src="./assets/images/a.png"></td>
+            <td><img src="./assets/images/aed09cb048383509be63cc1991794c29-lcd.png" width="250px" height="250px"></td>
             <td>
                 <h1> Dawit Bezabih</h1>
     <h3>Student, Addis Ababa University</h3>
@@ -26,44 +26,71 @@
     <hr>
     <!-- comment-->
     <h3>Contact us...</h3>
-    <form method='POST' action="mailto:cow@gmail.com" enctype="utf-8">
-        <table>
+    <form method='get' action="http://www.google.com/search" enctype="utf-8">
+        <table cellspacing='10'>
             <tr>
                 <td><label for="fName">First Name:</label></td>
-                <td><input type='text' name="fName" id="fName"></td>
+                <td><input type='text' name="fName" id="fName" pattern="[A-Za-z]{2,50}"></td>
             </tr>
             <tr>
                 <td><label for="sName">Sur Name:</label></td>
-                <td><input type="text" name="sName" id="sName"></td>
+                <td><input type="text" name="sName" id="sName" pattern="[A-Za-z]{2,50}"></td>
             </tr>
             <tr>
                 <td><label for="email">Email:</label></td>
                 <td><input type="email" name='email' id='email'></td>
             </tr>
             <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" name="age" min="18" max="64"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone No:</label></td>
+                <td><input type="tel" name='tel' pattern="0-9{10}"></td>
+            </tr>
+            <tr>
                 <td><label for="country:">Country:</label></td>
                 <td>
                     <select name="country" id="">
-                        <option value="af">Africa</option>
-                        <option value="am">America</option>
-                        <option value="eu">Europe</option>
+                        <option value="et">Ethiopia</option>
+                        <option value="er">Eritrea</option>
+                        <option value="eg">Egypt</option>
+                        <option value="su">Sudan</option>
+                        <option value="kn">Kenya</option>
+                        <option value="dj">Djbouti</option>
                     </select>
                 </td>
             </tr>
             <tr>
 
                 <td><label for="opinion">What do you say?</label></td>
-                <td><textarea name="comment" id="" cols="30" rows="10"></textarea></td>
+                <td><textarea name="comment" id="" cols="30" rows="10" maxlength="300"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="website">If you have a website(optional):</label></td>
+                <td><input type="url" name="url"></td>
+            </tr>
+            <tr>
+                <td><label for="date">From when you want me to start the job?</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>What do you want to search?</td>
+                <td><input type="search" name='q' placeholder="This will be googled."></td>
             </tr>
             <tr>
                 <td><input type='submit' value='Submit'></td>
+            </tr>
+            <tr>
+                <td> <label for="map">I live here:</label> </td>
+                <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.187858663747!2d38.75785801662276!3d9.046622127588078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f69f1dbdf67%3A0xb8a418693b6edef9!2sAddis%20Ababa%20University%20College%20of%20Social%20Sciences!5e0!3m2!1sen!2set!4v1583781049121!5m2!1sen!2set" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></td>
             </tr>
         </table>
     </form>
 
     <hr>
-    <a href="www.facebook.com" target="_blank">Facebook</a> |
-    <a href="www.telegram.com" target="_blank">Telegram</a>
+    <a href="http:/www.facebook.com" target="_blank"><img src="./assets/images/circle-cropped (1).png" alt="facebook logo" height='30px' width='30px'></a> |
+    <a href="http:/www.t.me/dave987" target="_blank"><img src="./assets/images/t_logo.png" alt="telegram logo" height='30px' width='30px'></a>
     <hr>
 
     <hr>
