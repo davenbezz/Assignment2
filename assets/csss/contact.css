@@ -29,13 +29,6 @@ header{
     margin-left: 20px;
     margin-top: 20px;
 }
-.work{
-    display: flex;
-    width: 300px;
-}
-.work > p{
-    flex: 1 100px;
-}
 #logo{
     width: 250px;
     height: 250px;
@@ -43,4 +36,18 @@ header{
 a{
     text-decoration: none;
     color: white;
+}
+.contact{
+    padding: 10px;
+    display: flex;
+    width: 400px;
+}
+.contact > p{
+    flex: 1 100;
+}
+#contact_us{
+    display: flex;
+}
+#contact_us > div{
+    flex: 1 400px;
 }
