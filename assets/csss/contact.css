@@ -51,3 +51,7 @@ a{
 #contact_us > div{
     flex: 1 400px;
 }
+#footerdiv > a > img{
+    height: 30px;
+    width: 30px;
+}
