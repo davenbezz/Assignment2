@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="p-0 row">
+    <header class="p-0 row" id="top_navbar">
         <div class="col-1"></div>
         <div class="col-10 d-flex flex-row flex-wrap justify-content-center p-2 bg-primary">
             <a href="#home" class="btn btn-dark m-1">Home </a>
@@ -19,69 +19,62 @@
         </div>
         <div class="col-1"></div>
     </header>
-    <main class="row" id="home">
-        <div class="col-1"></div>
-        <div class="col-10 bg-secondary text-white">
-            <h2>
-                #Lalibela
-            </h2>
-            <img src="./assets/images/BeteGiorgis.jpg" alt="Lalibela Medhanialem Church" class="img-fluid">
-        </div>
-        <div class="col-1"></div>
-    </main>
     <div class="row">
         <div class="col-1"></div>
         <div class="col-10 bg-secondary text-white">
-            <h2>
-                #Fasil Castle
-            </h2>
-            <img src="./assets/images/fasil.jpg" alt="Fasil Castle" class="img-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <img src="./assets/images/person.png" alt="Person" class="float-right img-fluid" width="200px">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates provident nesciunt hic voluptas tempore eum doloribus id quam explicabo. Quisquam nulla fuga accusamus alias rerum magni doloribus laborum, impedit ea.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, fugiat odio. Nobis, in quisquam et voluptatibus maiores dolore ipsum dicta nulla voluptatum odit hic, velit reiciendis, similique nam nesciunt commodi!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum laudantium quas rem, nobis, perferendis quod deserunt modi impedit maxime id sit nesciunt nulla ducimus ipsum, sed sint. Consectetur, sequi temporibus.
+                </div>
+                <div class="col-6">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse facilis numquam sapiente. Exercitationem rerum deserunt provident dolores minima, a aliquam fugiat eius odit quod mollitia explicabo odio. Ad, fuga vel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere explicabo molestias rerum eius doloribus, voluptates debitis quis repudiandae omnis officia voluptas eveniet officiis nulla dolorem sit, dolorum minima a.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo repudiandae perspiciatis, praesentium eos quaerat molestiae quos ipsam provident blanditiis dolore enim eveniet minus facere officia recusandae, nulla porro impedit!
+                </div>
+            </div>
+            <div>
+                <h2>
+                    #Lalibela
+                </h2>
+                <img src="./assets/images/BeteGiorgis.jpg" alt="Lalibela Medhanialem Church" class="img-fluid"
+                    id="lalibelaimg">
+                    <h2>
+                        #Fasil Castle
+                    </h2>
+                    <img src="./assets/images/fasil.jpg" alt="Fasil Castle" class="img-fluid">
+                    <h2>
+                        #Axum
+                    </h2>
+                    <img src="./assets/images/axum.jpg" alt="Axum" class="img-fluid">
+                    <h2>
+                        #Sof Umer Cave
+                    </h2>
+                    <img src="./assets/images/sof_umer.jpg" alt="Sof Umer Cave" class="img-fluid">
+                    <h2>
+                        #Erta Ale
+                    </h2>
+                    <img src="./assets/images/erta-ale.jpg" alt="Erta Ale" class="img-fluid">
+                    <div class="text-center">
+                        <h1>
+                            Contact
+                        </h1>
+                        <p>
+                            Tel: <a href="tel" class="btn btn-primary">+251919192694</a>
+                        </p>
+                        <p>email: <a href="mailto:it.dawit.bezabih@gmail.com"
+                            class="text-decoration-none text-white btn btn-primary">it.dawit.bezabih@gmail.com</a> </p>
+                    </div>
+                    
+            </div>
         </div>
-        <div class="col-1"></div>
-    </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10 bg-secondary text-white">
-            <h2>
-                #Axum
-            </h2>
-            <img src="./assets/images/axum.jpg" alt="Axum" class="img-fluid">
+        <div class="col-1">
+            <a href="#top_navbar" class="text-decoration-none position-fixed"><img src="./assets/images/top.png" alt="Top" class="img-fluid"></a>
         </div>
-        <div class="col-1"></div>
     </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10 bg-secondary text-white">
-            <h2>
-                #Sof Umer Cave
-            </h2>
-            <img src="./assets/images/sof_umer.jpg" alt="Sof Umer Cave" class="img-fluid">
-        </div>
-        <div class="col-1"></div>
-    </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10 bg-secondary text-white">
-            <h2>
-                #Erta Ale
-            </h2>
-            <img src="./assets/images/erta-ale.jpg" alt="Erta Ale" class="img-fluid">
-        </div>
-        <div class="col-1"></div>
-    </div>
-    <div id="contact" class="row" >
-        <div class="col-1"></div>
-        <div class="col-10 bg-secondary text-light d-flex flex-column text-center">
-            <h1>
-                Contact
-            </h1>
-            <p>
-                Tel: <a href="tel" class="btn btn-primary">+251919192694</a>
-            </p>
-            <p>email: <a href="mailto:it.dawit.bezabih@gmail.com" class="text-decoration-none text-white btn btn-primary">it.dawit.bezabih@gmail.com</a> </p>
-        </div>
-        <div class="col-1"></div>
-    </div>
+    
     <script src="./assets/js/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
 </body>
